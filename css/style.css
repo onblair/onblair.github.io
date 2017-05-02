@@ -409,7 +409,7 @@ body{
 #sectionSix{
 	background: #fafafa;
 	padding: 1% 10% 1% 10%;
-	height: 20%;
+	height: 7%;
 	border-top: 2px solid #222222;
 }
 
@@ -424,6 +424,8 @@ body{
 		font-size: 70%;
 		font-weight: 100;
 		color: #222222;
+		float: right;
+		line-height: 250%;
 	}
 	
 /*CODE TO TARGET SMALLER DEVICES UNDER 770PX*/
