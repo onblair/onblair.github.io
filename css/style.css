@@ -1,0 +1,536 @@
+/*google fonts*/
+
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans);
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/*reset defaults*/
+
+body{
+	font-family: 'Roboto', Arial, sans-serif;
+	background-color: #fff;
+	width: 100%;
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	font-weight: 300;
+	color: #494949;
+	font-size: 0px;
+	overflow: auto;
+	font-size: x-large;
+	line-height: 1.3;
+}
+
+
+/*STYLINGS USED THROUGHOUT*/
+
+.mainText{
+	font-size: 90%;
+}
+
+.title{
+	font-size: 80%;
+}
+
+.info{
+	font-size: 58%;
+}
+
+.divider{
+	font-size: 140%;
+}
+
+.row{
+    width: 100%;
+}
+.row:before, .row:after {
+    display: table;
+}
+
+.column{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+.section{
+	width: 100%;
+	min-height: 700px;
+	background: #fafafa;
+}
+
+/*SECTION ONE - Splash*/
+
+#top{
+	background: #fafafa;
+	padding: 2% 10% 2% 10%;
+}
+
+	#top img{
+		width: 18%;
+		height: auto;
+		border: none;
+	}
+
+	#top .mainnav{
+		float: right;
+		vertical-align: center;
+	}
+
+	#top .mainnav{
+		text-align: right;
+		display: table-cell;
+		margin: 2 0 0 0;
+	}
+
+	.mainnav li{
+		display: inline-block;
+		text-decoration: none;
+		padding: 0 0 0 50;
+	}
+
+	#top a{
+		font-family: 'Roboto';
+		font-size: 60%;
+		text-decoration: none;
+		color: #b2b2b2;
+		letter-spacing: 2px;
+	}
+	
+	#current a{
+		color: #4b69e2;
+	}
+
+		#top a:link {
+			color: #b2b2b2;
+		}
+		#top a:visited {
+			color: #b2b2b2;
+		}
+		#top a:hover {
+			color: #4b69e2;
+		}
+		#top a:active {
+			color: #4b69e2;
+		}
+
+#bottom{
+	background: #fafafa;
+	padding: 2% 10% 0% 10%;
+	height: 60%;
+}
+
+	#illustration_atom{
+		width: 40%;
+		height: 40%;
+		float: right;
+	}
+
+	#illustration_atom img{
+		width: 100%;
+		border: none;
+	}
+
+	#intro{
+		width: 50%;
+		height: 100%;
+		display: inline-flex;
+	}
+
+	h1{
+		font-family: 'Roboto Slab';
+		font-size: 140%;
+		font-weight: 500;
+		color: #222222;
+		margin: 0 0 10px 0;
+	}
+
+	#intro a{
+		font-family: 'Calibri';
+		font-size: 70%;
+		font-weight: 100;
+		color: #222222;
+	}
+	
+	.center{
+		margin: auto 0px;
+	}
+	
+	.introButtons{
+		padding: 20px 0 0 0;
+	}
+	
+	.introButtons button{
+		padding: 15px 50px;
+		margin: 0 10px 0 0;
+		text-align: center;
+		text-decoration: none;
+		font-family: 'Calibri';
+		font-size: 70%;
+		font-weight: 400;
+	}
+
+	#problemButton{
+		border: 0px;
+		background: #ec174f;
+		color: #ffffff;
+	}	
+
+	#solutionButton{
+		border: 0px;
+		background: #4b69e2;
+		color: #ffffff;
+	}	
+		
+		.button span {
+		  cursor: pointer;
+		  display: inline-block;
+		  position: relative;
+		  transition: 0.5s;
+		}
+
+		.button span:after {
+		  content: '  >>';
+		  position: absolute;
+		  opacity: 0;
+		  top: 0;
+		  right: -20px;
+		  transition: 0.5s;
+		}
+
+		.button:hover span {
+		  padding-right: 25px;
+		  padding-left: -25px;
+		}
+
+		.button:hover span:after {
+		  opacity: 1;
+		  right: 0;
+		}	
+
+	
+	
+	
+/*SECTION TWO - Screenshot*/	
+	
+	
+#sectionTwo{
+	background: #ffffff;
+	padding: 2% 10% 2% 10%;
+}
+
+#sectionTwo .header{
+	text-align: center;
+	margin: 0 auto 0 auto;
+	padding: 1% 0 3% 0;
+	width: 60%;
+}
+
+#sectionTwo a{
+	font-family: 'Calibri';
+	font-size: 70%;
+	font-weight: 100;
+	color: #222222;
+}
+
+#sectionTwo img{
+	width: 100%;
+}	
+
+
+/*SECTION Three - Quotes*/
+
+#sectionThree{
+	background: #213859;
+	padding: 2% 0 1% 0;
+	display: block;
+}
+
+#sectionThree .header{
+	text-align: center;
+	padding: 1% 0 0 0;
+}
+
+#sectionThree h1{
+	color: #ffffff;
+	font-size: 60%;
+	font-weight: 100;
+	font-family: 'Roboto Light';
+	letter-spacing: 2px;
+}
+
+#illustration_people{
+	background: url(../images/illustration_people.svg);
+	padding: 0 0 0 0;
+	height: 90%;
+	background-position: left bottom;
+	background-repeat: no-repeat;
+}
+
+#slider_border {
+	padding: 0 10% 0 10%;
+}
+
+.slider{
+	width: 90%;
+	height: 50%;
+	margin: 0 auto 0 auto;
+}
+
+.slide{
+	padding: 0 150px 0 150px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.slide a{
+	color: #ffffff;
+	font-family: 'Roboto Slab';
+	font-size: 70%;
+	font-weight: 300;	
+}	
+
+.slide h2{
+	color: #ffffff;
+	font-family: 'Roboto Slab';
+	font-size: 85%;
+	font-weight: 500;
+	margin: 30px 0 5px 0;
+	
+}	
+
+.slide h3{
+	color: #ffffff;
+	font-family: 'Roboto Slab';
+	font-size: 70%;
+	font-weight: 300;
+	margin: 0 0 0 0;
+}
+
+.center2{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+/*SECTION Four - Grid*/
+
+#sectionFour{
+	background: #ffffff;
+	padding: 2% 5vw 4% 5vw;
+}
+
+#grid {
+	width: 100%;
+}
+
+.row {
+	width: 75vw;
+	height: 15vw;
+	margin: 0 auto;
+}
+
+.block {
+    width: 13vw;
+    height: 13vw;
+    outline: 0px solid #4b69e2;
+    float: left;
+	margin: 1vw 1vw;
+	background-color: #ffffff;
+	display: block;
+}
+
+.block img{
+	width: 3vw;
+	margin: 1vw;
+}
+
+.block h1{
+	font-size: 60%;
+	font-weight: 500;
+	color: #222222;
+	margin: 0 0 0 0;
+	line-height: 140%;
+}
+
+.icon {
+	background-color: #ffffff;
+	width: 5vw;
+	height: 5vw;
+	float: left;
+}
+
+.iconTitle {
+	background-color: #ffffff;
+	width: 8vw;
+	height: 4vw;
+	float: right;
+	padding: 1vw 0 0 0;
+}
+
+.iconText {
+	background-color: #ffffff;
+	width: 11vw;
+	height: 6.5vw;
+	float: left;
+	padding: .5vw 1vw 1vw 1vw;
+	text-align: left;
+}
+
+.iconText a{
+	font-family: 'Calibri';
+	font-size: 50%;
+	font-weight: 100;
+	color: #222222;
+	margin: 0 0 0 0;
+	line-height: 150%;
+}
+
+/*SECTION Five - Learn More*/
+
+#sectionFive{
+	background-color: #ffffff;
+	display: block;
+	height: 50%;
+}
+
+#sectionFive .header{
+	text-align: center;
+	margin: 0 auto 0 auto;
+	padding: 6% 0 6% 0;
+	width: 60%;
+}
+
+#sectionFive .introButtons{
+	padding: 5px 0 0 0;
+}
+
+/*SECTION Six - Footer*/
+
+#sectionSix{
+	background: #fafafa;
+	padding: 1% 10% 1% 10%;
+	height: 20%;
+	border-top: 2px solid #222222;
+}
+
+	#sectionSix img{
+		width: 13%;
+		height: auto;
+		border: none;
+	}
+	
+	#sectionSix a{
+		font-family: 'Calibri';
+		font-size: 70%;
+		font-weight: 100;
+		color: #222222;
+	}
+	
+/*CODE TO TARGET SMALLER DEVICES UNDER 770PX*/
+
+@media only screen and (max-width: 770px){
+
+	#mainnav a.logo img{
+		padding-left: 15px;
+	}
+	
+	#mainnav{
+	height: 65px;
+	}
+
+	#mainnav li{
+		display: inline-block;
+		text-decoration: none;
+		padding: 0px 25px 0px 0px;
+		font-weight: 300;	
+	}
+
+	ul.mainnav{
+		padding-right: 25px;
+	}
+
+	#mainnav a.logo img{
+		padding-right: 10px;
+		border:none;
+	}
+
+	.text{
+		padding: 40px 50px 40px 40px;
+		width: auto;
+	}
+
+	.points{
+		padding: 30px;
+		
+	}
+	
+	.info {
+    font-size: 75%;
+	}
+	
+	.divider{
+	
+		padding: 40px;
+	}
+
+	.column{
+		display: block !important;
+		width: 100% !important;
+		padding: 0px !important;
+	}
+
+	.point#digital, .point#scalable{
+		padding-top: 40px;
+	}
+
+
+}
+
+/*CODE TO ADD MAX-WIDTH ABOVE 1500PX*/
+
+@media only screen and (min-width: 1500px){
+	.mainText{
+		font-size: 110%;
+		line-height: 1.3;
+	}
+	.row{
+		max-width: 1500px;
+		margin: 0 auto;
+		font-size: 130%;
+	}
+
+	.logo img{
+		width: 250px;
+	}
+
+}
+
+
+@media only screen and (max-width: 770px){
+	body{
+		font-size: x-large;
+		line-height: 1.6;
+	}
+
+	a{
+		font-size: medium;
+	}
+
+	#mainnav a{
+		font-size: small;
+	}
+	
+	#sectionFour {
+		width:100%;
+		margin: 0 auto;
+	}
+	
+	#sectionSix {
+		width:100%;
+		margin: 0 auto;
+	}
+	
+}
+
+
+
