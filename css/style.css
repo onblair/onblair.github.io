@@ -1,12 +1,12 @@
 /*google fonts*/
 
-@import url(https://fonts.googleapis.com/css?family=Droid+Sans);
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:100,300,700');
 
 /*reset defaults*/
 
 body{
-	font-family: 'Roboto', Arial, sans-serif;
+	font-family: 'Open Sans', Arial, sans-serif;
 	background-color: #fff;
 	width: 100%;
 	margin: 0px;
@@ -18,6 +18,10 @@ body{
 	overflow: auto;
 	font-size: x-large;
 	line-height: 1.3;
+}
+
+a:hover{
+	cursor: pointer;
 }
 
 
@@ -54,7 +58,6 @@ body{
 
 .section{
 	width: 100%;
-	min-height: 700px;
 	background: #fafafa;
 }
 
@@ -115,14 +118,24 @@ body{
 
 #bottom{
 	background: #fafafa;
-	padding: 2% 10% 0% 10%;
-	height: 60%;
+	padding: 2% 10% 5% 10%;
+	display: table;
 }
+
+	.column#illustration_atom{
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	.column#intro{
+		display: table-cell;
+		vertical-align: middle;
+		padding-right: 50px;
+	}
 
 	#illustration_atom{
 		width: 40%;
-		height: 40%;
-		float: right;
+		height: auto;
 	}
 
 	#illustration_atom img{
@@ -145,8 +158,10 @@ body{
 	}
 
 	#intro a{
-		font-family: 'Calibri';
-		font-size: 70%;
+		font-family: 'Open Sans';
+		font-weight: 100;
+		font-size: 14px;
+		line-height: 1.7;
 		font-weight: 100;
 		color: #222222;
 	}
@@ -164,7 +179,7 @@ body{
 		margin: 0 10px 0 0;
 		text-align: center;
 		text-decoration: none;
-		font-family: 'Calibri';
+		font-family: 'Open Sans', 'Roboto';
 		font-size: 70%;
 		font-weight: 400;
 	}
@@ -207,6 +222,29 @@ body{
 		  right: 0;
 		}	
 
+
+/*MOBILE STYLES SECTION ONE*/
+
+@media all and (max-width: 700px) {
+
+	.column#illustration_atom{
+		display: block;
+		width: 100%;
+	}
+
+	.column#intro{
+		display: block;
+		width: 100%;
+		padding-right: 0px;
+		padding-top: 25px;
+		float: left;
+	}
+
+	h1{
+		font-size: 25px;
+	}
+}
+
 	
 	
 	
@@ -226,8 +264,9 @@ body{
 }
 
 #sectionTwo a{
-	font-family: 'Calibri';
-	font-size: 70%;
+	font-family: 'Open Sans';
+	font-size: 14px;
+	line-height: 1.7;
 	font-weight: 100;
 	color: #222222;
 }
@@ -254,7 +293,7 @@ body{
 	color: #ffffff;
 	font-size: 60%;
 	font-weight: 100;
-	font-family: 'Roboto Light';
+	font-family: 'Roboto';
 	letter-spacing: 2px;
 }
 
@@ -377,7 +416,7 @@ body{
 }
 
 .iconText a{
-	font-family: 'Calibri';
+	font-family: 'Open Sans';
 	font-size: 50%;
 	font-weight: 100;
 	color: #222222;
@@ -436,11 +475,11 @@ body{
 	}
 	
 	#sectionSix a{
-		font-family: 'Calibri';
-		font-size: 70%;
+		font-family: 'Open Sans';
+		font-size: 14px;
 		font-weight: 100;
 		color: #ffffff;
-		line-height: 130%;
+		line-height: 1.7;
 		text-decoration: none;
 	}
 	
@@ -475,8 +514,9 @@ body{
 }
 
 #sectionSeven h2{
-	font-family: 'Calibri';
-	font-size: 70%;
+	font-family: 'Open Sans';
+	font-size: 14px;
+	line-height: 1.7;
 	font-weight: 100;
 	color: #222222;
 }
@@ -583,8 +623,9 @@ body{
 }
 
 .pItem a{
-	font-family: 'Calibri';
-	font-size: 60%;
+	font-family: 'Open Sans';
+	font-size: 14px;
+	line-height: 1.7;
 	font-weight: 100;
 }
 
@@ -622,8 +663,10 @@ body{
 }
 
 #sectionEight a{
-	font-family: 'Calibri';
-	font-size: 70%;
+	font-family: 'Open Sans';
+	font-size: 14px;
+	line-height: 1.7;
 	font-weight: 100;
 	color: #222222;
 }
+
