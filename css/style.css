@@ -604,3 +604,26 @@ body{
 #pp4 h1{
 	font-size: 170%;
 }
+
+
+/*SECTION Eight - Team*/	
+
+#sectionEight{
+	background: #ffffff;
+	height: 130%;
+	padding: 2% 5vw 2% 5vw;
+}
+
+#sectionEight .header{
+	text-align: center;
+	margin: 0 auto 0 auto;
+	padding: 1% 0 3% 0;
+	width: 60%;
+}
+
+#sectionEight a{
+	font-family: 'Calibri';
+	font-size: 70%;
+	font-weight: 100;
+	color: #222222;
+}
