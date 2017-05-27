@@ -65,11 +65,11 @@ a:hover{
 
 #top{
 	background: #fafafa;
-	padding: 2% 10% 2% 10%;
+	padding: 20px 10% 20px 10%;
 }
 
 	#top img{
-		width: 18%;
+		width: 150px;
 		height: auto;
 		border: none;
 	}
@@ -154,13 +154,14 @@ a:hover{
 		font-size: 140%;
 		font-weight: 500;
 		color: #222222;
-		margin: 0 0 10px 0;
+		margin: 0 0 15px 0;
+		letter-spacing: .5;
 	}
 
 	#intro a{
 		font-family: 'Open Sans';
 		font-weight: 100;
-		font-size: 14px;
+		font-size: 16px;
 		line-height: 1.7;
 		font-weight: 100;
 		color: #222222;
@@ -265,7 +266,7 @@ a:hover{
 
 #sectionTwo a{
 	font-family: 'Open Sans';
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 1.7;
 	font-weight: 100;
 	color: #222222;
@@ -295,6 +296,7 @@ a:hover{
 	font-weight: 100;
 	font-family: 'Roboto';
 	letter-spacing: 2px;
+	line-height: 1.5;
 }
 
 #illustration_people{
@@ -476,7 +478,7 @@ a:hover{
 	
 	#sectionSix a{
 		font-family: 'Open Sans';
-		font-size: 14px;
+		font-size: 16px;
 		font-weight: 100;
 		color: #ffffff;
 		line-height: 1.7;
@@ -515,7 +517,7 @@ a:hover{
 
 #sectionSeven h2{
 	font-family: 'Open Sans';
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 1.7;
 	font-weight: 100;
 	color: #222222;
@@ -624,7 +626,7 @@ a:hover{
 
 .pItem a{
 	font-family: 'Open Sans';
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 1.7;
 	font-weight: 100;
 }
@@ -664,7 +666,7 @@ a:hover{
 
 #sectionEight a{
 	font-family: 'Open Sans';
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 1.7;
 	font-weight: 100;
 	color: #222222;
