@@ -243,7 +243,7 @@ a:hover{
 	text-align: center;
 	margin: 0 auto 0 auto;
 	padding: 1% 0 3% 0;
-	width: 60%;
+	width: 50%;
 }
 
 #sectionTwo a{
@@ -339,7 +339,7 @@ a:hover{
 
 #sectionFour{
 	background: #ffffff;
-	padding: 2% 5vw 3% 5vw;
+	padding: 5% 10% 5% 10%;
 }
 
 #grid {
@@ -347,24 +347,22 @@ a:hover{
 }
 
 .row {
-	width: 75vw;
-	height: 15vw;
-	margin: 0 auto;
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+  	display: flex;
+  	flex-flow: row wrap;
+  	justify-content: center;
 }
 
 .block {
-    width: 13vw;
-    height: 13vw;
-    outline: 0px solid #4b69e2;
-    float: left;
-	margin: 1vw 1vw;
-	background-color: #ffffff;
-	display: block;
+   flex-basis: 16%;
+   padding: 2%;
 }
 
 .block img{
-	width: 3vw;
-	margin: 1vw;
+	width: 30px;
 }
 
 .block h1{
@@ -375,28 +373,22 @@ a:hover{
 	line-height: 140%;
 }
 
+
 .icon {
 	background-color: #ffffff;
-	width: 5vw;
-	height: 5vw;
-	float: left;
+	display: table-cell;
+	vertical-align: top;
 }
 
 .iconTitle {
 	background-color: #ffffff;
-	width: 8vw;
-	height: 4vw;
-	float: right;
-	padding: 1vw 0 0 0;
+	display: table-cell;
+	vertical-align: top;
+	padding-left: 10px;
 }
 
 .iconText {
-	background-color: #ffffff;
-	width: 11vw;
-	height: 6.5vw;
-	float: left;
-	padding: .5vw 1vw 1vw 1vw;
-	text-align: left;
+	padding-top: 10px;
 }
 
 .iconText a{
@@ -656,7 +648,14 @@ a:hover{
 
 /*MOBILE STYLES SECTION ONE*/
 
-@media all and (max-width: 700px) {
+@media all and (max-width: 1210px) {
+	.block {
+   flex-basis: 22%;
+   padding: 2% 5%;
+	}
+}
+
+@media all and (max-width: 750px) {
 
 	.column#illustration_atom{
 		display: none;
@@ -688,10 +687,26 @@ a:hover{
 	}
 
 	#sectionTwo .header{
-		padding: 0;
 		text-align: left;
 		margin: none;
 		width: 100%;
+	}
+
+	.row{
+    	display: block;
+	}
+
+	.block{
+		width: 100%;
+		padding: 10px 0px;
+	}
+
+	.iconTitle {
+		width: 100%;
+	}
+
+	.icon{
+		vertical-align: middle;
 	}
 }
 
