@@ -662,7 +662,7 @@ a:hover{
 	}
 
 	#illustration_atom_mobile{
-		display: block;
+		display: initial;
 		text-align: left;
 		padding: 0% 10% 0 10%;
 	}
