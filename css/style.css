@@ -116,15 +116,20 @@ a:hover{
 			color: #4b69e2;
 		}
 
-#bottom{
-	background: #fafafa;
-	padding: 2% 10% 5% 10%;
-	display: table;
-}
+	#bottom{
+		background: #fafafa;
+		padding: 2% 10% 5% 10%;
+		display: table;
+	}
 
 	.column#illustration_atom{
 		display: table-cell;
 		vertical-align: middle;
+	}
+
+	#illustration_atom_mobile{
+		display: none;
+		width: 100%;
 	}
 
 	.column#intro{
@@ -224,29 +229,6 @@ a:hover{
 		}	
 
 
-/*MOBILE STYLES SECTION ONE*/
-
-@media all and (max-width: 700px) {
-
-	.column#illustration_atom{
-		display: block;
-		width: 100%;
-	}
-
-	.column#intro{
-		display: block;
-		width: 100%;
-		padding-right: 0px;
-		padding-top: 25px;
-		float: left;
-	}
-
-	h1{
-		font-size: 25px;
-	}
-}
-
-	
 	
 	
 /*SECTION TWO - Screenshot*/	
@@ -254,7 +236,7 @@ a:hover{
 	
 #sectionTwo{
 	background: #ffffff;
-	padding: 2% 10% 2% 10%;
+	padding: 5% 10% 5% 10%;
 }
 
 #sectionTwo .header{
@@ -670,5 +652,46 @@ a:hover{
 	line-height: 1.7;
 	font-weight: 100;
 	color: #222222;
+}
+
+/*MOBILE STYLES SECTION ONE*/
+
+@media all and (max-width: 700px) {
+
+	.column#illustration_atom{
+		display: none;
+	}
+
+	#illustration_atom_mobile{
+		display: block;
+		text-align: left;
+		padding: 0% 10% 0 10%;
+	}
+
+	#illustration_atom_mobile img{
+		width: 40%;
+	}
+	.column#intro{
+		display: block;
+		width: 100%;
+		padding-right: 0px;
+		padding-top: 25px;
+		float: left;
+	}
+
+	h1{
+		font-size: 25px;
+	}
+
+	#top .mainnav{
+		display: none;
+	}
+
+	#sectionTwo .header{
+		padding: 0;
+		text-align: left;
+		margin: none;
+		width: 100%;
+	}
 }
 
