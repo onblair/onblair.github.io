@@ -297,7 +297,7 @@ br#mobile{
 	color: #ffffff;
 	font-size: 60%;
 	font-weight: 100;
-	font-family: 'Roboto';
+	font-family: 'Open Sans';
 	letter-spacing: 2px;
 	line-height: 1.5;
 }
@@ -736,7 +736,7 @@ a.institutionLink:hover #pp4 h1{
 
 .title{
 	font-size: 16px;
-	font-family: "Roboto";
+	font-family: "Open Sans";
 	padding-top: 5px;
 
 }
