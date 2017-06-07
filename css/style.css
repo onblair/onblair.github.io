@@ -284,7 +284,7 @@ br#mobile{
 
 #sectionThree{
 	background: #213859;
-	padding: 2% 0 1% 0;
+	padding: 5% 0 1% 0;
 	display: block;
 }
 
@@ -777,6 +777,15 @@ a.institutionLink:hover #pp4 h1{
 
 @media all and (max-width: 830px) {
 
+	#sectionEight h1{
+		text-align: center;
+		margin-bottom: 0px;
+	}
+
+	#sectionTwo img{
+		padding-top: 5%;
+	}
+
 	.column#illustration_atom{
 		display: none;
 	}
@@ -881,7 +890,7 @@ a.institutionLink:hover #pp4 h1{
 
 	.person{
 		width: 100%;
-		padding: 10px 0px;
+		padding: 0px;
 	}
 }
 
