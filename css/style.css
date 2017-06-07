@@ -347,6 +347,9 @@ br#mobile{
 	font-weight: 300;
 }
 
+.slick-slide{
+	height: auto !important;
+}
 /*.center2{
 	position: relative;
 	top: 50%;
