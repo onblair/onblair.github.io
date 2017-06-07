@@ -28,6 +28,10 @@ a:hover{
 	cursor: default;
 }
 
+#top img:hover{
+	cursor: pointer;
+}
+
 
 /*STYLINGS USED THROUGHOUT*/
 
@@ -72,10 +76,15 @@ a:hover{
 	padding: 20px 10% 20px 10%;
 }
 
+
 	#top img{
 		width: 150px;
 		height: auto;
 		border: none;
+	}
+
+	#top img.mobile{
+		display: none;
 	}
 
 	#top .mainnav{
@@ -266,6 +275,10 @@ a:hover{
 	width: 100%;
 }	
 
+br#mobile{
+	display: none;
+}
+
 
 /*SECTION Three - Quotes*/
 
@@ -304,7 +317,6 @@ a:hover{
 .slider{
 	/*width: 90%;
 	height: 50%;*/
-	margin: 0 auto;
 }
 
 .slide{
@@ -345,7 +357,7 @@ a:hover{
 
 #sectionFour{
 	background: #ffffff;
-	padding: 5% 10% 5% 10%;
+	padding: 0% 10% 5% 10%;
 }
 
 #grid {
@@ -383,7 +395,7 @@ a:hover{
 .icon {
 	background-color: #ffffff;
 	display: table-cell;
-	vertical-align: top;
+	vertical-align: middle;
 }
 
 .iconTitle {
@@ -399,11 +411,11 @@ a:hover{
 
 .iconText a{
 	font-family: 'Open Sans';
-	font-size: 50%;
+	font-size: 14px;
 	font-weight: 100;
 	color: #222222;
 	margin: 0 0 0 0;
-	line-height: 150%;
+	line-height: 1.7;
 }
 
 /*SECTION Five - Learn More*/
@@ -429,8 +441,8 @@ a:hover{
 
 #sectionSix{
 	background: #222222;
-	padding: 3% 10% 1% 10%;
-	height: 30%;
+	width: 80%;
+	padding: 30px 10% 40px 10%;
 	display: table;
 }
 
@@ -438,9 +450,11 @@ a:hover{
 		width: 46%;
 		height: 100%;
 		float: left;
-		display: flex;
-		align-items: flex-end;
 		padding: 0 0 20px 0;
+	}
+
+	#left a:hover{
+		cursor: pointer;
 	}
 	
 	#right{
@@ -452,7 +466,8 @@ a:hover{
 	}
 
 	#sectionSix img{
-		width: 35%;
+		width: 150px;
+		height: auto;
 		border: none;
 	}
 	
@@ -465,8 +480,13 @@ a:hover{
 		text-decoration: none;
 	}
 
-	#sectionSix a:hover{
-		cursor: pointer;
+	#sectionSix p{
+		font-family: 'Open Sans';
+		font-size: 16px;
+		font-weight: 100;
+		color: #ffffff;
+		line-height: 1.7;
+		text-decoration: none;
 	}
 	
 		#sectionSix a:link {
@@ -477,6 +497,7 @@ a:hover{
 		}
 		#sectionSix a:hover {
 			color: #b2b2b2;
+			cursor: pointer;
 		}
 		#sectionSix a:active {
 			color: #b2b2b2;
@@ -631,9 +652,26 @@ a:hover{
 	background-color: #fafafa;
 }
 
+#institution a{
+	text-decoration: none;
+}
+
+#pp4:hover{
+	cursor: pointer;
+}
+a.institutionLink:hover #pp4 h1{
+	text-shadow: 2px 2px #000000;
+}
+
 #pp4 h1{
 	font-size: 170%;
 }
+
+#pp4:hover{
+	background-color: #353535;
+}
+
+
 
 
 /*SECTION Eight - Team*/	
@@ -660,6 +698,13 @@ a:hover{
 
 /*MOBILE STYLES SECTION ONE*/
 
+
+@media all and (max-width: 1265px) {
+	br#mobile{
+		display: initial;
+	}
+}
+
 @media all and (max-width: 1210px) {
 	.block {
 	   flex-basis: 22%;
@@ -667,7 +712,7 @@ a:hover{
 	}
 }
 
-@media all and (max-width: 750px) {
+@media all and (max-width: 830px) {
 
 	.column#illustration_atom{
 		display: none;
@@ -681,6 +726,7 @@ a:hover{
 
 	#illustration_atom_mobile img{
 		width: 40%;
+		padding-top: 90px;
 	}
 	.column#intro{
 		display: block;
@@ -715,6 +761,7 @@ a:hover{
 
 	.iconTitle {
 		width: 100%;
+		vertical-align: middle;
 	}
 
 	.icon{
@@ -738,6 +785,30 @@ a:hover{
 		text-align: left;
 		margin: none;
 		width: 100%;
+	}
+
+	br.desktop{
+		display: none;
+	}
+
+	#top{
+		background: #4B69E2;
+		padding: 15px 10%;
+		position: fixed;
+		width: 100%;
+		margin: 0 auto;
+	}
+	#top img.mobile{
+		display: initial;
+	}
+	#top img.desktop{
+		display: none;
+	}
+
+	#top img{
+		width: 100px;
+		height: auto;
+		border: none;
 	}
 }
 
