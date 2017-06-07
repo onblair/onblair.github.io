@@ -802,6 +802,7 @@ a.institutionLink:hover #pp4 h1{
 		position: fixed;
 		width: 100%;
 		margin: 0 auto;
+		z-index: 100000;
 	}
 	#top img.mobile{
 		display: initial;
