@@ -173,7 +173,7 @@ a:hover{
 
 	h1{
 		font-family: 'Roboto Slab';
-		font-size: 140%;
+		font-size: 35px;
 		font-weight: 500;
 		color: #222222;
 		margin: 0 0 15px 0;
@@ -689,8 +689,7 @@ a.institutionLink:hover #pp4 h1{
 #sectionEight .header{
 	text-align: center;
 	margin: 0 auto 0 auto;
-	padding: 1% 0 3% 0;
-	width: 50%;
+	padding: 2% 0 1% 0;
 }
 
 #sectionEight a{
@@ -699,6 +698,65 @@ a.institutionLink:hover #pp4 h1{
 	line-height: 1.7;
 	font-weight: 100;
 	color: #222222;
+}
+
+.team {
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+  	display: flex;
+  	flex-flow: row wrap;
+  	justify-content: center;
+  	margin-bottom:20px;
+}
+
+.person {
+   flex-basis: 28%;
+   padding: 2%;
+   text-align: center;
+}
+
+
+.person img{
+	width: 180px;
+	height: 180px;
+	border-radius: 100%;
+	margin-top: 25px;
+	border: 1px solid #fafafa;
+}
+
+.name{
+	color: black;
+	font-family: "Roboto Slab";
+	padding-top: 25px;
+	font-size: 18px;
+
+}
+
+.title{
+	font-size: 16px;
+	font-family: "Roboto";
+	padding-top: 5px;
+
+}
+
+.background{
+	font-size: 14px;
+	padding-top: 10px;
+}
+
+.background ul{
+	list-style-type: none;
+	-webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 0;
+}
+
+.background li{
+	padding-top: 10px;
 }
 
 /*MOBILE STYLES SECTION ONE*/
@@ -815,6 +873,15 @@ a.institutionLink:hover #pp4 h1{
 		width: 100px;
 		height: auto;
 		border: none;
+	}
+
+	.team{
+    	display: block;
+	}
+
+	.person{
+		width: 100%;
+		padding: 10px 0px;
 	}
 }
 
