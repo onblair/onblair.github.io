@@ -16,6 +16,11 @@ handlers:
   static_files: index.html
   upload: index.html
 
+- url: /slick
+  static_dir: slick
+  
+- url: /fonts
+  static_dir: fonts
 
 libraries:
 - name: webapp2
