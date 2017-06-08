@@ -109,7 +109,7 @@ a:hover{
 	}
 
 	#top a{
-		font-family: 'Roboto';
+		font-family: 'Open Sans';
 		font-size: 60%;
 		text-decoration: none;
 		color: #b2b2b2;
@@ -202,7 +202,7 @@ a:hover{
 		margin: 0 10px 0 0;
 		text-align: center;
 		text-decoration: none;
-		font-family: 'Open Sans', 'Roboto';
+		font-family: 'Open Sans';
 		font-size: 70%;
 		font-weight: 400;
 	}
