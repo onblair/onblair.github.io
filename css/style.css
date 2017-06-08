@@ -551,7 +551,7 @@ br#mobile{
 
 .pTitle{
 	width: 100%;
-	height: 8%;
+	/*height: 8%; firefox bug*/
 	text-align: center;
 	border: 0;
 	display: table;
@@ -584,7 +584,8 @@ br#mobile{
 	
 .pPrice{
 	width: 100%;
-	height: 18%;
+	/*height: 18%; firefox bug*/
+	height: 150px;
 	text-align: center;
 	padding: 0 0 0 0;
 	display: table;
@@ -630,8 +631,9 @@ br#mobile{
 }
 
 .pItem{
-	height: 5%;
+	/*height: 5%;firefox bug*/
 	display: table;
+	padding-bottom: 3px;
 }
 
 .pItem a{
