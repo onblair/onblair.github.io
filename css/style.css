@@ -791,6 +791,7 @@ a.institutionLink:hover #pp4 h1{
     -webkit-margin-start: 0;
     -webkit-margin-end: 0;
     -webkit-padding-start: 0;
+    padding-left: 0; /*firefox fix*/
 }
 
 .background li{
