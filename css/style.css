@@ -797,6 +797,10 @@ a.institutionLink:hover #pp4 h1{
 	padding-top: 10px;
 }
 
+.join {
+	text-align: center;
+}
+
 /*MOBILE STYLES SECTION ONE*/
 
 
@@ -962,6 +966,10 @@ a.institutionLink:hover #pp4 h1{
 	
 	#pp4 h1{
 		font-size: 170%;
+	}
+
+	.pItem a {
+		font-size: 16px;
 	}
 }
 
