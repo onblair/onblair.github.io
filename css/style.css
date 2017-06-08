@@ -671,7 +671,7 @@ a.institutionLink:hover #pp4 h1{
 }
 
 #pp4 h1{
-	font-size: 170%;
+	font-size: 130%;
 }
 
 #pp4:hover{
@@ -816,8 +816,11 @@ a.institutionLink:hover #pp4 h1{
 @media all and (max-width: 830px) {
 
 	#sectionEight h1{
-		text-align: center;
 		margin-bottom: 0px;
+	}
+	
+	#sectionEight .header {
+		padding: 8% 0 1% 0;
 	}
 
 	#sectionTwo img{
@@ -862,6 +865,7 @@ a.institutionLink:hover #pp4 h1{
 		text-align: left;
 		margin: none;
 		width: 100%;
+		padding: 8% 0 1% 0;
 	}
 
 	.row{
@@ -893,6 +897,7 @@ a.institutionLink:hover #pp4 h1{
 		text-align: left;
 		margin: none;
 		width: 100%;
+		padding: 8% 0 1% 0;
 	}
 
 	#sectionEight .header{
@@ -921,7 +926,7 @@ a.institutionLink:hover #pp4 h1{
 	}
 
 	#top img{
-		width: 150px;
+		width: 130px;
 		height: auto;
 		border: none;
 	}
@@ -953,6 +958,10 @@ a.institutionLink:hover #pp4 h1{
 	
 	.pItem.duplicate {
 			display: none;
+	}
+	
+	#pp4 h1{
+		font-size: 170%;
 	}
 }
 
