@@ -394,6 +394,7 @@ br#mobile{
 	color: #222222;
 	margin: 0 0 0 0;
 	line-height: 140%;
+	text-align: left;
 }
 
 
@@ -691,6 +692,7 @@ a.institutionLink:hover #pp4 h1{
 	text-align: center;
 	margin: 0 auto 0 auto;
 	padding: 2% 0 1% 0;
+	width: 50%;
 }
 
 #sectionEight a{
@@ -821,6 +823,10 @@ a.institutionLink:hover #pp4 h1{
 	#sectionTwo img{
 		padding-top: 5%;
 	}
+	
+	#sectionOne h1{
+		text-align: left;
+	}
 
 	.column#illustration_atom{
 		display: none;
@@ -833,7 +839,7 @@ a.institutionLink:hover #pp4 h1{
 	}
 
 	#illustration_atom_mobile img{
-		width: 40%;
+		width: 60%;
 		padding-top: 90px;
 	}
 	.column#intro{
@@ -864,7 +870,7 @@ a.institutionLink:hover #pp4 h1{
 
 	.block{
 		width: 100%;
-		padding: 10px 0px;
+		padding: 17px 0px;
 	}
 
 	.iconTitle {
@@ -915,7 +921,7 @@ a.institutionLink:hover #pp4 h1{
 	}
 
 	#top img{
-		width: 100px;
+		width: 150px;
 		height: auto;
 		border: none;
 	}
@@ -927,6 +933,26 @@ a.institutionLink:hover #pp4 h1{
 	.person{
 		width: 100%;
 		padding: 0px;
+	}
+	
+	.slide{
+	padding: 0 20px;
+	}
+
+	.slide a{
+		font-size: 60%;
+	}	
+	
+	#illustration_people {
+		height: 200px;
+	}
+	
+	#right {
+    width: 50%;
+	}
+	
+	.pItem.duplicate {
+			display: none;
 	}
 }
 
