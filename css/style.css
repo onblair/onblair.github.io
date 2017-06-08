@@ -381,7 +381,7 @@ br#mobile{
 
 .block {
    flex-basis: 16%;
-   padding: 2%;
+   padding: 15px;
 }
 
 .block img{
@@ -792,6 +792,7 @@ a.institutionLink:hover #pp4 h1{
     -webkit-margin-end: 0;
     -webkit-padding-start: 0;
     padding-left: 0; /*firefox fix*/
+    margin: 0; /*firefox fix*/
 }
 
 .background li{
@@ -811,10 +812,10 @@ a.institutionLink:hover #pp4 h1{
 	}
 }
 
-@media all and (max-width: 1210px) {
+@media all and (max-width: 1215px) {
 	.block {
-	   flex-basis: 22%;
-	   padding: 2% 5%;
+	   flex-basis: 30%;
+	   padding: 15px 10px;
 	}
 }
 
