@@ -783,7 +783,7 @@ a.institutionLink:hover #pp4 h1{
 
 .background{
 	font-size: 14px;
-	padding-top: 10px;
+	padding-top: 0px;
 }
 
 .background ul{
@@ -807,6 +807,11 @@ a.institutionLink:hover #pp4 h1{
 
 /*MOBILE STYLES SECTION ONE*/
 
+@media (min-width: 4000px) {
+	#illustration_people{
+		height: 1200px;
+	}
+}
 
 @media all and (max-width: 1265px) {
 	br#mobile{
@@ -956,9 +961,6 @@ a.institutionLink:hover #pp4 h1{
 		font-size: 60%;
 	}	
 	
-	#illustration_people {
-		height: 200px;
-	}
 	
 	#right {
     width: 50%;
