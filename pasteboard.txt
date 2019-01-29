@@ -1,0 +1,29 @@
+pasteboard 
+
+<svg id="icons" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <path id="boundary" d="M0,0H20V20H0Z" fill="none"/>
+  <g class="icon" id="icon-searchjournals">
+    <path id="svg-path" class="svg-path" d="M17.333,16.658V7.692a1.638,1.638,0,0,0-.492-1.175L12.817,2.492A1.638,1.638,0,0,0,11.642,2H5.667A1.664,1.664,0,0,0,4.008,3.667L4,17a1.664,1.664,0,0,0,1.658,1.667H15.667a1.652,1.652,0,0,0,.992-.333l-3.692-3.692a4.149,4.149,0,0,1-2.5.683,4.168,4.168,0,1,1,.925-8.267,4.163,4.163,0,0,1,2.75,6.4ZM8.167,11.167a2.5,2.5,0,1,0,2.5-2.5A2.5,2.5,0,0,0,8.167,11.167Z" transform="translate(-0.667 -0.333)"/>
+  </g>
+  <g class="icon" id="icon-comment">
+    <path id="svg-path-2" class="svg-path" d="M17,2H3.667A1.664,1.664,0,0,0,2.008,3.667L2,18.667l3.333-3.333H17a1.672,1.672,0,0,0,1.667-1.667v-10A1.672,1.672,0,0,0,17,2ZM6.167,7.833H14.5a.833.833,0,1,1,0,1.667H6.167a.833.833,0,1,1,0-1.667Zm5,4.167h-5a.833.833,0,0,1,0-1.667h5a.833.833,0,0,1,0,1.667ZM14.5,7H6.167a.833.833,0,0,1,0-1.667H14.5A.833.833,0,1,1,14.5,7Z" transform="translate(-0.333 -0.333)"/>
+  </g>
+  
+ <defs>
+    <style>
+		.icon {
+			display: none;
+		}
+		.icon:target {
+			display: inline;
+		}
+		rect, line {
+			shape-rendering: crispEdges;
+		}
+	</style>
+</defs> 
+  
+</svg>
+
+
+background-image: linear-gradient(-66deg, #ffffff 0%, #e8ebec 100%);

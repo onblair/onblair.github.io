@@ -1,0 +1,77 @@
+	
+	:root {
+		--font-family: "Source Sans Pro", sans-serif;
+		
+		--white: #FFFFFF;
+		--grey-10: #F9F9F9;
+		--grey-20: #F3F4F5;
+		--grey-30: #E8EBEC;
+		--grey-40: #D4D9DB;
+		--grey-45: #BFC6C9;
+		--grey-50: #AAB4B7;
+		--grey-55: #95A2A5;
+		--grey-60: #878F92;
+		--grey-70: #5F6A6E;
+		--grey-80: #38464A;
+		--grey-90: #263033;
+		--black: #0E1517;
+		
+		--green-1: #3DD182;
+		--green-2: #32C27A;
+		--green-3: #2F9E6A;
+		--green-4: #247A52;
+		
+		--blue-1: #3F8DE6;
+		--blue-2: #236CBB;
+		--blue-3: #1E508A;
+		--blue-4: #1D3B5C;
+		
+		--forest-1: #29B484;
+		--forest-2: #1C9B75;
+		--forest-3: #187D5F;
+		--forest-4: #0B654A;
+		
+		--orange-1: #F5DC5E;
+		--orange-2: #F5BD5E;
+		--orange-3: #F2A152;
+		--orange-4: #EA8660;
+		
+		--shadow: 3px 3px 10px rgba(46, 71, 78, 0.15);
+		--bottom-line: 0 1px 0 var(--grey-30);
+		--bottom-shadow: 0px 9px 14px -7px rgba(46, 71, 78, 0.5); 
+		--grey-background: linear-gradient(-66deg, #FDFDFE 0%, #EBEEEF 100%);
+		
+	}
+	
+	.green {
+		--main: var(--green-2);
+		--light: var(--green-1);
+		--dark: var(--green-3);
+		--darker: var(--green-4);
+		--background: linear-gradient(99deg, #32BA77 0%, #2FA16B 100%);
+	}
+	
+	.blue {
+		--main: var(--blue-2);
+		--light: var(--blue-1);
+		--dark: var(--blue-3);
+		--darker: var(--blue-4);
+		--background: linear-gradient(99deg, #2266B0 0%, #1F528E 100%);
+	}
+	
+	.forest {
+		--main: var(--forest-2);
+		--light: var(--forest-1);
+		--dark: var(--forest-3);
+		--darker: var(--forest-4);
+		--background: linear-gradient(99deg, #1B9470 0%, #187F61 100%);
+	}
+	
+	.navy {
+		--main: var(--blue-4);
+		--light: var(--blue-3);
+		/* --dark: var(); */
+		/* --darker: var(); */
+		--background: linear-gradient(99deg, #1E4B80 0%, #1D3D60 100%);
+	}
+	
